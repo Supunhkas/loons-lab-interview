@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: 100vh;
+  background-size: cover;
+  padding-top: 60px;
+  background-image: url(https://images.pexels.com/photos/94273/jetty-beach-sunset-sea-94273.jpeg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTxt {
+  margin: 10px;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 250px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.frmLabel {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: capitalize;
+}
+.frmInput {
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 5px 15px 5px;
+  outline: none;
+}
+
+.frmButton {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
